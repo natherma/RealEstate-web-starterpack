@@ -1,0 +1,30 @@
+
+
+.h-container 
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--secondary);
+}
+
+.h-menu 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+
+/* For smaller device */
+
+@media screen and (max-width:666px)
+{
+ 
+  .h-menu 
+  {
+    display: none;
+  }
+    
+}

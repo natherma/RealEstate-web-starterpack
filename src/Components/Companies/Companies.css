@@ -1,0 +1,22 @@
+.companies-container 
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.companies-container img 
+{
+    width: 10rem;
+}
+
+
+/* For smaller device */
+
+@media screen and (max-width:666px)
+{
+ 
+  .companies-container 
+  {
+    flex-direction: column;
+  }  
+}
