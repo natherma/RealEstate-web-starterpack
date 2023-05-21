@@ -1,0 +1,22 @@
+.footer-container 
+{
+ justify-content: space-between;
+}
+
+.footerMenu 
+{
+    
+    gap: 1rem;
+    margin-top: 1rem;
+    font-weight: 500;
+}
+
+.footer-right 
+{
+    align-items: end;
+}
+
+.footer-left .secondaryText 
+{
+    margin-top: 1rem;
+}
