@@ -41,7 +41,7 @@ export default function
                    {
                    statsData.map(element=>
                     {
-                        return <Stats start={element.start} end={element.end} duration={element.duration} text={element.text}/>
+                        return <Stats start={element.start} end={element.end} duration={element.duration} text={element.text} key={element.start}/>
                     })
                    }
              </div>
