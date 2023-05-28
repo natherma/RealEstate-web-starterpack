@@ -3,6 +3,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap;
 }
 .companies-container img 
 {
@@ -18,5 +19,6 @@
   .companies-container 
   {
     flex-direction: column;
+    gap: 1rem;
   }  
 }

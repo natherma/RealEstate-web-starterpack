@@ -86,3 +86,20 @@
 .swiper-horizontal {
     overflow: visible !important;
 }
+
+
+@media screen and (max-width:666px) {
+  .slider-buttons
+  {
+    top: -18%;
+    right:-1%;
+  }
+
+  .slider-buttons button 
+  {
+    
+    font-size:.8rem;
+    padding: .2rem .6rem;
+  }
+    
+}

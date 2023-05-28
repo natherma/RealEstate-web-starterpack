@@ -9,7 +9,7 @@
 {
     display: flex;
     justify-content: space-around;
-    align-items:center;
+    align-items:centr;
 }
 
 /* right side */
@@ -34,23 +34,23 @@
 .hero-left 
 {
     display: flex;
-    justify-content: flex-start;
-    align-items: self-start;
+    justify-content: center;
+    align-items: flex-start;
     flex-direction: column;
     gap: 3rem;
 }
 
 .search-bar 
 {
+    
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
     background-color: #fff;
     border-radius: 5px;
-    border: 3px solid rgba(120, 120, 120, 0.374);
-    padding: .5rem 1rem;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 1rem;
-    width: 100%;
+    border: 3px solid rgba(120,120,120,.374);
+    padding: .5rem .8rem;
 }
 
 .search-bar input 
@@ -90,7 +90,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 1rem;
+    gap: 1.5rem;
+    flex-wrap: wrap;
 }
 
 
@@ -102,13 +103,37 @@
   .hero-container 
   {
     flex-direction: column;
+    gap: 2rem;
+    margin-top: 2rem;
   }
   
   .hero-image-container 
   {
-    width: 95%;
     height: 25rem;
+    width: 100%;
+  }
+
+  .hero-title h1
+  {
+        font-size: 2.5rem;
+        line-height: 3rem;
   }
     
+}
+
+@media screen and (max-width:1024px)and (min-width:667px)
+{
+  
+  .hero-container 
+  {
+    flex-direction: column;
+  }  
+  .hero-right 
+  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+  }
 }
 

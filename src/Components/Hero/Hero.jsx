@@ -2,6 +2,9 @@ import React from 'react'
 import '../Hero/Hero.css'
 import {HiLocationMarker} from "react-icons/hi"
 import Stats from '../Stats/Stats'
+import {easeInOut, motion, spring} from "framer-motion"
+
+
 
 let statsData = [
     {start:8800,end:9000,duration:4,text:"Premium Product"},
@@ -18,11 +21,11 @@ export default function
            <div className='hero-left'>
              <div className='hero-title'>
              <div className="orange-circle"></div>
-             <h1>                
+             <motion.h1  initial={{padding:"1rem",opacity:0}} animate={{padding:0,opacity:1}} transition={{duration:2,type:easeInOut}}>                
                 Discover<br/>
                 Most Suitable<br/>
                 Property
-             </h1>
+             </motion.h1>
              </div>
              <div className='hero-description'>
                 <span className='secondaryText'>
@@ -31,7 +34,7 @@ export default function
                 </span>
              </div>
              <div className='search-bar'>
-                   <HiLocationMarker color='var(--blue)' size={25}/>
+             <HiLocationMarker color='var(--blue)' size={25} alt="Location"/>
                    <input type="text" />
                    <div className="button">
                     Search
@@ -47,9 +50,9 @@ export default function
              </div>
            </div>
            <div className='hero-right'>
-                 <div className='hero-image-container'>
+                 <motion.div className='hero-image-container' initial={{margin:"1rem",opacity:0}} animate={{margin:0,opacity:1}} transition={{duration:2,type:easeInOut}}>
                     <img src="./hero-image.png" alt="hero-image "/> 
-                </div>  
+                </motion.div>  
            </div>
          </div>
     </div>

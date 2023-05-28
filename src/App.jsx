@@ -6,6 +6,7 @@ import Header from "./Components/Header/Header";
 import Hero from "./Components/Hero/Hero"
 import Slider from "./Components/Slider/Slider";
 import Value from "./Components/Value/Value";
+import {motion} from "framer-motion" 
 
 function App() {
   return (

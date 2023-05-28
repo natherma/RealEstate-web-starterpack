@@ -28,7 +28,7 @@ a {
   text-decoration: none;
 }
 .paddings {
-  padding: 1.5rem;
+  padding: 2rem;
 }
 
 .button 
@@ -41,6 +41,7 @@ a {
   border-radius: 4px;
   transition: all 300ms ease-in-out;
   cursor: pointer;
+
 }
 
 .button:hover 

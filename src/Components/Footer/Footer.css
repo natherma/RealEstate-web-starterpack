@@ -20,3 +20,21 @@
 {
     margin-top: 1rem;
 }
+
+@media screen and (max-width:666px) {
+
+    .footer-left 
+    {
+        justify-content: center;
+        align-items: center;
+    }
+    .footer-right 
+    {
+        justify-content: center;
+        align-items: center;
+    }
+    .footer-container 
+    {
+        justify-content: center;
+    }
+}

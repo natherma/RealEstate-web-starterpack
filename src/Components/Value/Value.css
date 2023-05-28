@@ -55,3 +55,25 @@
 {
     font-size: 1.2rem;
 }
+
+
+@media screen and (max-width:660px) {
+    .value-container 
+    {
+        flex-direction: column;
+    }
+    .accordianButton .primaryText 
+    {
+        font-size: .75rem;
+    }
+}
+
+
+@media screen  and (max-width:1024px) and (min-width:667px)
+{
+  .value-container 
+  {
+    flex-direction: column;
+  }
+}
+

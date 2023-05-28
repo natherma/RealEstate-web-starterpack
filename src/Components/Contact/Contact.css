@@ -65,3 +65,42 @@
     align-items: center;
     gap: 1rem;
 }
+
+@media screen and (max-width:660px) {
+    .row 
+    {
+
+    flex-wrap: wrap;
+    }
+
+    .mode 
+    {
+        width: 100%;
+    }
+}
+
+
+@media screen and (max-width:1140px)and (min-width:667px)
+{
+  .contact-container 
+  {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .contact-left 
+  {
+    width: 100%;
+  }
+  .contactMode 
+  {
+    width: 100%;
+  }
+  .mode 
+  {
+    width: 100%;
+  }
+  .row 
+  {
+    width: 100%;
+  }
+}
