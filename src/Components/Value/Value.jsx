@@ -8,7 +8,7 @@ import data from '../../utils/accordion'
 
 export default function Value() {
   return (
-    <div className='value-wrapper'>
+    <div className='value-wrapper' id='value'>
         <div className="innerWidth flexCenter value-container paddings">
            <div className="value-left">
             <div className="hero-image-container">

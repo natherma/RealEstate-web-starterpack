@@ -8,7 +8,7 @@ import { slidersettings } from '../../utils/Common'
 
 export default function Slider() {
   return (
-    <div className='slider-wrapper' style={{overflow:"hidden"}}>
+    <div className='slider-wrapper' style={{overflow:"hidden"}} id='slider'>
          <div className="slider-container innerWidth paddings">
                 <div className='Swipper-header'>
                     <span className='orangeText'>

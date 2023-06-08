@@ -21,7 +21,7 @@ export default function
            <div className='hero-left'>
              <div className='hero-title'>
              <div className="orange-circle"></div>
-             <motion.h1  initial={{padding:"1rem",opacity:0}} animate={{padding:0,opacity:1}} transition={{duration:2,type:easeInOut}}>                
+             <motion.h1  initial={{padding:"1rem",opacity:0}} animate={{padding:0,opacity:1}} transition={{duration:1.5,type:easeInOut}}>                
                 Discover<br/>
                 Most Suitable<br/>
                 Property
@@ -50,7 +50,7 @@ export default function
              </div>
            </div>
            <div className='hero-right'>
-                 <motion.div className='hero-image-container' initial={{margin:"1rem",opacity:0}} animate={{margin:0,opacity:1}} transition={{duration:2,type:easeInOut}}>
+                 <motion.div className='hero-image-container' initial={{margin:"1rem",opacity:0}} animate={{margin:0,opacity:1}} transition={{duration:1.5,type:spring}}>
                     <img src="./hero-image.png" alt="hero-image "/> 
                 </motion.div>  
            </div>
