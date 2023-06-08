@@ -122,11 +122,18 @@
   {
     flex-wrap: wrap;
   }
-  .search-bar  .button
+  .search-bar .button
   {
     width: 100%;
     margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
+  .search-bar .button:hover 
+  {
+    transform: none;
+  } 
 }
 
 @media screen and (max-width:1024px) and (min-width:667px)
