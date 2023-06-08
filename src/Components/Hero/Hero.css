@@ -118,10 +118,18 @@
         font-size: 2.5rem;
         line-height: 3rem;
   }
-    
+  .search-bar 
+  {
+    flex-wrap: wrap;
+  }
+  .search-bar  .button
+  {
+    width: 100%;
+    margin-top: 1rem;
+  }
 }
 
-@media screen and (max-width:1024px)and (min-width:667px)
+@media screen and (max-width:1024px) and (min-width:667px)
 {
   
   .hero-container 
